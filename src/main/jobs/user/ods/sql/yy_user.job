@@ -1,0 +1,5 @@
+
+today=date +%Y%m%d
+
+type=command
+command=/apps/hive-1.1.0-cdh5.13.2/bin/hive -f  add_user.sql
